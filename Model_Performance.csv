@@ -1,0 +1,5 @@
+Model,R² Score
+Linear Regression,0.605
+Lag Model,-0.007
+Random Forest,0.829
+Activity Model,0.707
