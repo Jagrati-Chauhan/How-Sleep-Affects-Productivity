@@ -12,10 +12,11 @@ To understand whether sleep duration, sleep efficiency, and physical activity ca
 
 ## 📊 Key Insights
 
-- **Sleep Duration and Efficiency** are **strong predictors** of productivity.
+- **Sleep Duration and Efficiency** are strong predictors of productivity.
 - **Activity features** (steps, calories) have **minimal impact**.
-- **Random Forest model** achieved the best predictive performance with **R² = 0.83**.
-- People sleeping **7–8 hours or more** showed the highest productivity.
+- The **Random Forest model** achieved the best predictive performance with **R² = 0.83**.
+- People sleeping **7–8 hours or more** consistently showed higher productivity.
+- Productivity differences across sleep bins are statistically significant (ANOVA & Tukey HSD).
 
 ---
 
@@ -25,15 +26,15 @@ To understand whether sleep duration, sleep efficiency, and physical activity ca
 - Feature engineering: `HoursAsleep`, `SleepEfficiency`, lag features
 - Regression models: Linear, Lag-based, Random Forest
 - Statistical tests: ANOVA, Tukey HSD, t-test
-- Interactive dashboard in **Tableau**
+- Interactive data storytelling with **Tableau**
 
 ---
 
 ## 📈 Dashboard Preview
 
-👉 [View Tableau Dashboard]([https://public.tableau.com/your-dashboard-link-here](https://public.tableau.com/views/HowSleepAffectsProductivity/Dashboard1?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link))
+👉 [View Tableau Dashboard](https://public.tableau.com/views/HowSleepAffectsProductivity/Dashboard1)
 
-> *Note: Replace with your actual Tableau Public URL after publishing.*
+> *Explore how sleep duration and quality impact productivity across time, user groups, and model performance.*
 
 ---
 
@@ -41,15 +42,15 @@ To understand whether sleep duration, sleep efficiency, and physical activity ca
 
 | File                          | Description                                 |
 |-------------------------------|---------------------------------------------|
-| `How_Sleep_Affects_Productivity.ipynb` | Main analysis notebook (Python)      |
-| `Sleep_Activity_Productivity.csv`      | Cleaned merged dataset               |
-| `Model_Performance.csv`               | Summary of model results             |
+| `How_Sleep_Affects_Productivity.ipynb` | Jupyter notebook with full analysis    |
+| `Sleep_Activity_Productivity.csv`      | Cleaned dataset for modeling & Tableau |
+| `Model_Performance.csv`               | Summary of model R² scores              |
 
 ---
 
 ## 🧠 Takeaway
 
-Improving sleep quality — especially **sleep efficiency** — has a meaningful impact on daily productivity. This project demonstrates how statistical modeling and visualization can support behavioral insights.
+Improving sleep — particularly **sleep efficiency** — has a meaningful impact on daily productivity. This project combines statistical analysis, modeling, and interactive storytelling to support behavior-focused insights with real data.
 
 ---
 
